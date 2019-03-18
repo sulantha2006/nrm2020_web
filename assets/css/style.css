@@ -926,7 +926,7 @@ form input.error, form textarea.error {
     color: #fff; }
 
 .contact-details {
-  width: 260px;
+  width: 100%;
   text-align: center;
   color: #fff; }
   .contact-details h4 {
@@ -939,6 +939,24 @@ form input.error, form textarea.error {
     margin-bottom: 30px;
     color: #999; }
   .contact-details .content {
+    background: none;
+    margin: 15px;
+    padding: 20px 20px 10px; }
+    
+.just-text {
+  width: 100%;
+  text-align: center;
+  color: #fff; }
+  .just-text h4 {
+    font-size: 0.9rem;
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 5px; }
+  .just-text p {
+    margin-bottom: 30px;
+    color: #999; }
+  .just-text .content {
     background: none;
     margin: 15px;
     padding: 20px 20px 10px; }
@@ -1100,7 +1118,7 @@ form input.error, form textarea.error {
   color: #999; }
 
 .border-wrapper {
-  width: 260px;
+  width: 100%;
   position: relative;
   overflow: hidden; }
   .border-wrapper .borders {

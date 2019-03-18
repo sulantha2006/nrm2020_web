@@ -15,7 +15,13 @@
         </h1>
       </li>
     </ul>
-    <section class='top-bar-section'>
+    <div id="menu-toggler" class="right">
+      <a href='#'>
+        <i class="fa fa-bars"></i>
+        Menu
+      </a>
+    </div>
+    <section class='top-bar-section closed'>
       <ul class='right'>
 
         {% for item in site.data.nav %}
