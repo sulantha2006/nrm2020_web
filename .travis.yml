@@ -28,7 +28,7 @@ notifications:
 
 script:
 - bundle exec jekyll build
-- bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html --disable-external
+- bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html --disable-external --href-ignore "#"
 
 addons:
   ssh_known_hosts: nrm2020.org
