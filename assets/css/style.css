@@ -167,7 +167,7 @@ hr {
   padding: 0 60px; }
 
 .full {
-  padding: 160px 0 80px;
+  padding: 80px 0 80px;
   background-size: cover;
   background-position: 50% 50%;
   clear: both;
@@ -943,20 +943,38 @@ form input.error, form textarea.error {
     margin: 15px;
     padding: 20px 20px 10px; }
 
-.just-text {
+.just-text-center {
   width: 100%;
   text-align: center;
   color: #fff; }
-  .just-text h4 {
+  .just-text-center h4 {
     font-size: 0.9rem;
     color: #fff;
     letter-spacing: 4px;
     text-transform: uppercase;
     margin-bottom: 5px; }
-  .just-text p {
-    margin-bottom: 30px;
-    color: #999; }
-  .just-text .content {
+  .just-text-center p {
+    margin-bottom: auto;
+    color: #fff; }
+  .just-text-center .content {
+    background: none;
+    margin: 15px;
+    padding: 20px 25px 10px; }
+
+.just-text-left {
+  width: 100%;
+  text-align: left;
+  color: #fff; }
+  .just-text-left h4 {
+    font-size: 0.9rem;
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 5px; }
+  .just-text-left p {
+    margin-bottom: auto;
+    color: #fff; }
+  .just-text-left .content {
     background: none;
     margin: 15px;
     padding: 20px 25px 10px; }

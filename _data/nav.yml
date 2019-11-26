@@ -1,9 +1,21 @@
 - name: Home
   path: "#top"
   section_id: home
-- name: About
+- name: Why Attend
   path: "#about"
   section_id: about
+- name: Key Info
+  path: "#keyinfo"
+  section_id: keyinfo
+- name: Abstracts
+  path: "#abstracts"
+  section_id: abstracts
+- name: Montreal & Accomadations
+  path: "#montreal"
+  section_id: montreal
+- name: PK Course
+  path: "#pkcourse"
+  section_id: pkcourse
 - name: Contact
   path: "#contact"
   section_id: contact
