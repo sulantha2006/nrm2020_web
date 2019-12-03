@@ -805,6 +805,25 @@ ul.shortcode-list {
     display: block;
 }
 
+.section-title p.notification-small-title {
+  font-weight: bold;
+  font-family: Poppins;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgba(237, 70, 19, 0.829);
+  margin-bottom: 0px;
+  letter-spacing: 4px;
+}
+
+.section-title p.notification-small-title::after {
+      content: "";
+    width: 60px;
+    margin: 5px auto;
+    height: 1px;
+    background: rgba(237, 70, 19, 0.829);
+    display: block;
+}
+
 .section-title.not-found {
   min-height: 300px;
 }
@@ -1206,6 +1225,227 @@ form input.error, form textarea.error {
   .border-wrapper:hover .borders .bottom {
     right: 0; }
   .border-wrapper:hover .borders .left {
+    bottom: 0; }
+
+
+/*Notification Border Wrapper */
+.notification-border-wrapper {
+  width: 260px;
+  position: relative;
+  overflow: hidden; }
+  .notification-border-wrapper .borders {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+    .notification-border-wrapper .borders .top {
+      height: 1px;
+      width: 100%;
+      background: rgb(88, 48, 48);
+      position: absolute;
+      top: 0;
+      left: -100%;
+      -webkit-transition: left, 0.3s, linear;
+      -moz-transition: left, 0.3s, linear;
+      transition: left, 0.3s, linear; }
+    .notification-border-wrapper .borders .right {
+      width: 1px;
+      height: 100%;
+      background: rgb(88, 48, 48);
+      position: absolute;
+      right: 0;
+      top: -100%;
+      -webkit-transition: top, 0.3s, linear, 0.3s;
+      -moz-transition: top, 0.3s, linear, 0.3s;
+      transition: top, 0.3s, linear, 0.3s; }
+    .notification-border-wrapper .borders .bottom {
+      height: 1px;
+      width: 100%;
+      background: rgb(88, 48, 48);
+      position: absolute;
+      bottom: 0;
+      right: -100%;
+      -webkit-transition: right, 0.3s, linear, 0.6s;
+      -moz-transition: right, 0.3s, linear, 0.6s;
+      transition: right, 0.3s, linear, 0.6s; }
+    .notification-border-wrapper .borders .left {
+      left: 0;
+      width: 1px;
+      height: 100%;
+      background: rgb(88, 48, 48);
+      position: absolute;
+      bottom: -100%;
+      -webkit-transition: bottom, 0.3s, linear, 0.9s;
+      -moz-transition: bottom, 0.3s, linear, 0.9s;
+      transition: bottom, 0.3s, linear, 0.9s; }
+  .notification-border-wrapper.reverse .borders .top {
+    -webkit-transition: left, 0.3s, linear, 0.9s;
+    -moz-transition: left, 0.3s, linear, 0.9s;
+    transition: left, 0.3s, linear, 0.9s; }
+  .notification-border-wrapper.reverse .borders .right {
+    -webkit-transition: top, 0.3s, linear, 0.6s;
+    -moz-transition: top, 0.3s, linear, 0.6s;
+    transition: top, 0.3s, linear, 0.6s; }
+  .notification-border-wrapper.reverse .borders .bottom {
+    -webkit-transition: right, 0.3s, linear, 0.3s;
+    -moz-transition: right, 0.3s, linear, 0.3s;
+    transition: right, 0.3s, linear, 0.3s; }
+  .notification-border-wrapper.reverse .borders .left {
+    -webkit-transition: bottom, 0.3s, linear;
+    -moz-transition: bottom, 0.3s, linear;
+    transition: bottom, 0.3s, linear; }
+  .notification-border-wrapper:hover .borders .top {
+    left: 0; }
+  .notification-border-wrapper:hover .borders .right {
+    top: 0; }
+  .notification-border-wrapper:hover .borders .bottom {
+    right: 0; }
+  .notification-border-wrapper:hover .borders .left {
+    bottom: 0; }
+
+.notification-border-wrapper {
+  width: 260px;
+  position: relative;
+  overflow: hidden; }
+  .notification-border-wrapper .borders {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+    .notification-border-wrapper .borders .top {
+      height: 1px;
+      width: 100%;
+      background: rgb(250, 165, 165);
+      position: absolute;
+      top: 0;
+      left: -100%;
+      -webkit-transition: left, 0.3s, linear;
+      -moz-transition: left, 0.3s, linear;
+      transition: left, 0.3s, linear; }
+    .notification-border-wrapper .borders .right {
+      width: 1px;
+      height: 100%;
+      background: rgb(250, 165, 165);
+      position: absolute;
+      right: 0;
+      top: -100%;
+      -webkit-transition: top, 0.3s, linear, 0.3s;
+      -moz-transition: top, 0.3s, linear, 0.3s;
+      transition: top, 0.3s, linear, 0.3s; }
+    .notification-border-wrapper .borders .bottom {
+      height: 1px;
+      width: 100%;
+      background: rgb(250, 165, 165);
+      position: absolute;
+      bottom: 0;
+      right: -100%;
+      -webkit-transition: right, 0.3s, linear, 0.6s;
+      -moz-transition: right, 0.3s, linear, 0.6s;
+      transition: right, 0.3s, linear, 0.6s; }
+    .notification-border-wrapper .borders .left {
+      left: 0;
+      width: 1px;
+      height: 100%;
+      background: rgb(250, 165, 165);
+      position: absolute;
+      bottom: -100%;
+      -webkit-transition: bottom, 0.3s, linear, 0.9s;
+      -moz-transition: bottom, 0.3s, linear, 0.9s;
+      transition: bottom, 0.3s, linear, 0.9s; }
+  .notification-border-wrapper.reverse .borders .top {
+    -webkit-transition: left, 0.3s, linear, 0.9s;
+    -moz-transition: left, 0.3s, linear, 0.9s;
+    transition: left, 0.3s, linear, 0.9s; }
+  .notification-border-wrapper.reverse .borders .right {
+    -webkit-transition: top, 0.3s, linear, 0.6s;
+    -moz-transition: top, 0.3s, linear, 0.6s;
+    transition: top, 0.3s, linear, 0.6s; }
+  .notification-border-wrapper.reverse .borders .bottom {
+    -webkit-transition: right, 0.3s, linear, 0.3s;
+    -moz-transition: right, 0.3s, linear, 0.3s;
+    transition: right, 0.3s, linear, 0.3s; }
+  .notification-border-wrapper.reverse .borders .left {
+    -webkit-transition: bottom, 0.3s, linear;
+    -moz-transition: bottom, 0.3s, linear;
+    transition: bottom, 0.3s, linear; }
+  .notification-border-wrapper:hover .borders .top {
+    left: 0; }
+  .notification-border-wrapper:hover .borders .right {
+    top: 0; }
+  .notification-border-wrapper:hover .borders .bottom {
+    right: 0; }
+  .notification-border-wrapper:hover .borders .left {
+    bottom: 0; }
+
+.notification-border-wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+  .notification-border-wrapper .borders {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+    .notification-border-wrapper .borders .top {
+      height: 1px;
+      width: 100%;
+      background: rgb(185, 115, 115);
+      position: absolute;
+      top: 0;
+      left: -100%;
+      -webkit-transition: left, 0.3s, linear;
+      -moz-transition: left, 0.3s, linear;
+      transition: left, 0.3s, linear; }
+    .notification-border-wrapper .borders .right {
+      width: 1px;
+      height: 100%;
+      background: rgb(185, 115, 115);
+      position: absolute;
+      right: 0;
+      top: -100%;
+      -webkit-transition: top, 0.3s, linear, 0.3s;
+      -moz-transition: top, 0.3s, linear, 0.3s;
+      transition: top, 0.3s, linear, 0.3s; }
+    .notification-border-wrapper .borders .bottom {
+      height: 1px;
+      width: 100%;
+      background: rgb(185, 115, 115);
+      position: absolute;
+      bottom: 0;
+      right: -100%;
+      -webkit-transition: right, 0.3s, linear, 0.6s;
+      -moz-transition: right, 0.3s, linear, 0.6s;
+      transition: right, 0.3s, linear, 0.6s; }
+    .notification-border-wrapper .borders .left {
+      left: 0;
+      width: 1px;
+      height: 100%;
+      background: rgb(185, 115, 115);
+      position: absolute;
+      bottom: -100%;
+      -webkit-transition: bottom, 0.3s, linear, 0.9s;
+      -moz-transition: bottom, 0.3s, linear, 0.9s;
+      transition: bottom, 0.3s, linear, 0.9s; }
+  .notification-border-wrapper.reverse .borders .top {
+    -webkit-transition: left, 0.3s, linear, 0.9s;
+    -moz-transition: left, 0.3s, linear, 0.9s;
+    transition: left, 0.3s, linear, 0.9s; }
+  .notification-border-wrapper.reverse .borders .right {
+    -webkit-transition: top, 0.3s, linear, 0.6s;
+    -moz-transition: top, 0.3s, linear, 0.6s;
+    transition: top, 0.3s, linear, 0.6s; }
+  .notification-border-wrapper.reverse .borders .bottom {
+    -webkit-transition: right, 0.3s, linear, 0.3s;
+    -moz-transition: right, 0.3s, linear, 0.3s;
+    transition: right, 0.3s, linear, 0.3s; }
+  .notification-border-wrapper.reverse .borders .left {
+    -webkit-transition: bottom, 0.3s, linear;
+    -moz-transition: bottom, 0.3s, linear;
+    transition: bottom, 0.3s, linear; }
+  .notification-border-wrapper:hover .borders .top {
+    left: 0; }
+  .notification-border-wrapper:hover .borders .right {
+    top: 0; }
+  .notification-border-wrapper:hover .borders .bottom {
+    right: 0; }
+  .notification-border-wrapper:hover .borders .left {
     bottom: 0; }
 
 /*Pager */
