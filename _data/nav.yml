@@ -10,7 +10,7 @@
 - name: Abstracts
   path: "#abstracts"
   section_id: abstracts
-- name: Montreal & Accomadations
+- name: Montreal & Accommodations
   path: "#montreal"
   section_id: montreal
 - name: PK Course
