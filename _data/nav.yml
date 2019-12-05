@@ -1,21 +1,24 @@
 - name: Home
-  path: "#top"
+  path: '#top'
   section_id: home
 - name: Why Attend
-  path: "#about"
+  path: '#about'
   section_id: about
 - name: Key Info
-  path: "#keyinfo"
+  path: '#keyinfo'
   section_id: keyinfo
 - name: Abstracts
-  path: "#abstracts"
+  path: '#abstracts'
   section_id: abstracts
-- name: Montreal & Accommodations
-  path: "#montreal"
+- name: Accommodations
+  path: '#accom'
+  section_id: accom
+- name: Montreal
+  path: '#montreal'
   section_id: montreal
 - name: PK Course
-  path: "#pkcourse"
+  path: '#pkcourse'
   section_id: pkcourse
 - name: Contact
-  path: "#contact"
+  path: '#contact'
   section_id: contact
