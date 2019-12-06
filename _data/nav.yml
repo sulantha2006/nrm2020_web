@@ -19,6 +19,9 @@
 - name: PK Course
   path: '#pkcourse'
   section_id: pkcourse
+- name: About
+  path: '#org-spon'
+  section_id: org-spon
 - name: Contact
   path: '#contact'
   section_id: contact
