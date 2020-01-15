@@ -4,6 +4,7 @@ rvm:
 - 2.4.1
 
 install:
+- bundle update --bundler
 - bundle update
 - bundle install
 - gem install jekyll
